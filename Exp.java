@@ -9,7 +9,7 @@ void set() {
 	a = ip.nextInt();
 	b = ip.nextInt();
 	}
-	catch(Exception e) 
+	catch(InputMismatcheExceiption e) 
 	{
 		e.printStackTrace();
 	}
@@ -26,6 +26,3 @@ void show() {
 	}
 
 }
-
-
-
